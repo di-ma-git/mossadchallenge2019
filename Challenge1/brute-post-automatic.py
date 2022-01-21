@@ -15,7 +15,7 @@ HEADERS    = {'User-Agent' : 'ed9ae2c0-9b15-4556-a393-23d500675d4b', 'content-ty
 
 PAYLOAD ={}
 
-isValid  = "False"
+isValid  = "True"
 password = ""
 
 while(str(isValid) == "False"):
@@ -35,5 +35,5 @@ while(str(isValid) == "False"):
         if str(isValid) != "False":
             break
     password = password + correct_char
-    print("Max deley       : " + str(maxdelay))
+    print("Max deley eeeee : " + str(maxdelay))
     print("Currect Password: " + password)
